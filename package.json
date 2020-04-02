@@ -1,0 +1,17 @@
+{
+  "name": "electron-bug-settimeout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron6": "npm:electron@6",
+    "electron7": "npm:electron@7",
+    "electron8": "npm:electron@8",
+    "electron9": "npm:electron@9.0.0-beta.12"
+  }
+}
