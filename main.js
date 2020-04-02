@@ -1,4 +1,4 @@
-console.log(`ELECTRON IS RUNNING: ${process.versions.electron}`)
+console.log(`RUNNING: ${process.versions.electron}`)
 
 const wait = (t) => new Promise(resolve => {
   setTimeout(resolve, t)
