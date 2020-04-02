@@ -1,7 +1,7 @@
 console.log(`ELECTRON IS RUNNING: ${process.versions.electron}`)
 
 const wait = (t) => new Promise(resolve => {
-  setImmediate(() => setTimeout(resolve, t))
+  setTimeout(resolve, t)
 })
 const run = async () => {
   await wait(10)
